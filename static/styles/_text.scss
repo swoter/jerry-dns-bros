@@ -63,144 +63,144 @@
   }
 
   &-primary {
-    color: $primary;
+    color: $primary !important;
   }
 
   &-secondary {
-    color: $secondary;
+    color: $secondary !important;
   }
 
   &-success {
-    color: $success;
+    color: $success !important;
   }
 
   &-info {
-    color: $info;
+    color: $info !important;
   }
 
   &-warning {
-    color: $warning;
+    color: $warning !important;
   }
 
   &-gold {
-    color: $gold;
+    color: $gold !important;
   }
 
   &-danger {
-    color: $danger;
+    color: $danger !important;
   }
 
   &-light {
-    color: $light;
+    color: $light !important;
   }
 
   &-dark {
-    color: $dark;
+    color: $dark !important;
   }
 
   &-body {
-    color: $body-color;
+    color: $body-color !important;
   }
 
   &-white {
-    color: $white;
+    color: $white !important;
   }
 
   &-black-50 {
-    color: rgba($black, 0.5);
+    color: rgba($black, 0.5) !important;
   }
 
   &-white-50 {
-    color: rgba($white, 0.5);
+    color: rgba($white, 0.5) !important;
   }
 
   &-gray {
-    color: $gray;
+    color: $gray !important;
   }
 
   &-reset {
-    color: inherit;
+    color: inherit !important;
   }
 
   &-reset-hover {
-    color: inherit;
+    color: inherit !important;
     &:hover {
-      color: inherit;
+      color: inherit !important;
     }
   }
 
   &-small {
-    font-size: 0.875rem;
+    font-size: 0.875rem !important;
   }
 
   &-smaller {
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
   }
 
   &-smallest {
-    font-size: 0.5rem;
+    font-size: 0.5rem !important;
   }
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: bold !important;
   &-normal {
-    font-weight: normal;
+    font-weight: normal !important;
   }
 
   &-light {
-    font-weight: lighter;
+    font-weight: lighter !important;
   }
 
   &-bolder {
-    font-weight: bolder;
+    font-weight: bolder !important;
   }
 
   &-100 {
-    font-weight: 100;
+    font-weight: 100 !important;
   }
 
   &-200 {
-    font-weight: 200;
+    font-weight: 200 !important;
   }
 
   &-300 {
-    font-weight: 300;
+    font-weight: 300 !important;
   }
 
   &-400 {
-    font-weight: 400;
+    font-weight: 400 !important;
   }
 
   &-500 {
-    font-weight: 500;
+    font-weight: 500 !important;
   }
 
   &-600 {
-    font-weight: 600;
+    font-weight: 600 !important;
   }
 
   &-700 {
-    font-weight: 700;
+    font-weight: 700 !important;
   }
 
   &-800 {
-    font-weight: 800;
+    font-weight: 800 !important;
   }
 
   &-900 {
-    font-weight: 900;
+    font-weight: 900 !important;
   }
 
   &-inherit {
-    font-weight: inherit;
+    font-weight: inherit !important;
   }
 
   &-initial {
-    font-weight: initial;
+    font-weight: initial !important;
   }
 
   &-unset {
-    font-weight: unset;
+    font-weight: unset !important;
   }
 }
