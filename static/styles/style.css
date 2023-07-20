@@ -508,14 +508,14 @@ h6 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("../images/home/banner-bg.png?v=q01rw4fg");
+  background-image: url("../images/home/banner-bg.png?v=fcrtnjp8");
   min-height: 100vh;
 }
 .home .section-choose {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("../images/home/choose-bg.png?v=q01rw4fg");
+  background-image: url("../images/home/choose-bg.png?v=fcrtnjp8");
 }
 .home .section-choose .section-title {
   text-align: center;
@@ -566,7 +566,7 @@ h6 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("../images/home/book-bg.png?v=q01rw4fg");
+  background-image: url("../images/home/book-bg.png?v=fcrtnjp8");
 }
 .section-call .row {
   align-items: center;
