@@ -1,0 +1,206 @@
+.text {
+  &-left {
+    text-align: left;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-right {
+    text-align: right;
+  }
+
+  &-justify {
+    text-align: justify;
+  }
+
+  &-nowrap {
+    white-space: nowrap;
+  }
+
+  &-lowercase {
+    text-transform: lowercase;
+  }
+
+  &-uppercase {
+    text-transform: uppercase;
+  }
+
+  &-capitalize {
+    text-transform: capitalize;
+  }
+
+  &-break {
+    word-break: break-word;
+  }
+
+  &-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &-line-through {
+    text-decoration: line-through;
+  }
+
+  &-underline {
+    text-decoration: underline;
+  }
+
+  &-overline {
+    text-decoration: overline;
+  }
+
+  &-none {
+    text-decoration: none;
+  }
+
+  &-primary {
+    color: $primary;
+  }
+
+  &-secondary {
+    color: $secondary;
+  }
+
+  &-success {
+    color: $success;
+  }
+
+  &-info {
+    color: $info;
+  }
+
+  &-warning {
+    color: $warning;
+  }
+
+  &-gold {
+    color: $gold;
+  }
+
+  &-danger {
+    color: $danger;
+  }
+
+  &-light {
+    color: $light;
+  }
+
+  &-dark {
+    color: $dark;
+  }
+
+  &-body {
+    color: $body-color;
+  }
+
+  &-white {
+    color: $white;
+  }
+
+  &-black-50 {
+    color: rgba($black, 0.5);
+  }
+
+  &-white-50 {
+    color: rgba($white, 0.5);
+  }
+
+  &-gray {
+    color: $gray;
+  }
+
+  &-reset {
+    color: inherit;
+  }
+
+  &-reset-hover {
+    color: inherit;
+    &:hover {
+      color: inherit;
+    }
+  }
+
+  &-small {
+    font-size: 0.875rem;
+  }
+
+  &-smaller {
+    font-size: 0.75rem;
+  }
+
+  &-smallest {
+    font-size: 0.5rem;
+  }
+}
+
+.bold {
+  font-weight: bold;
+  &-normal {
+    font-weight: normal;
+  }
+
+  &-light {
+    font-weight: lighter;
+  }
+
+  &-bolder {
+    font-weight: bolder;
+  }
+
+  &-100 {
+    font-weight: 100;
+  }
+
+  &-200 {
+    font-weight: 200;
+  }
+
+  &-300 {
+    font-weight: 300;
+  }
+
+  &-400 {
+    font-weight: 400;
+  }
+
+  &-500 {
+    font-weight: 500;
+  }
+
+  &-600 {
+    font-weight: 600;
+  }
+
+  &-700 {
+    font-weight: 700;
+  }
+
+  &-800 {
+    font-weight: 800;
+  }
+
+  &-900 {
+    font-weight: 900;
+  }
+
+  &-inherit {
+    font-weight: inherit;
+  }
+
+  &-initial {
+    font-weight: initial;
+  }
+
+  &-unset {
+    font-weight: unset;
+  }
+}
