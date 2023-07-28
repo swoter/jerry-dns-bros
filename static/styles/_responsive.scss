@@ -29,58 +29,39 @@
     padding-top: 100px;
   }
 
-  .home {
-    &-carousel {
-      position: relative;
-      z-index: 1;
-      .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  .section {
+    &-banner {
+      .carousel {
+        h1 {
+          font-size: 60px;
+          line-height: 60px;
+          text-align: center;
+        }
       }
-      .row {
-        justify-content: center;
-      }
-      .info-left {
-        display: flex;
-        justify-content: flex-end;
-      }
-      h1 {
-        font-size: 60px;
-        line-height: 60px;
-        text-align: center;
-      }
-
-      &-nav {
-        bottom: 0;
+    }
+    &-choose {
+      .choose-item {
+        justify-content: flex-start;
       }
     }
 
-    .section {
-      &-choose {
-        .choose-item {
-          justify-content: flex-start;
+    &-call {
+      .row {
+        .col-md-3 {
+          text-align: center;
         }
       }
+    }
 
-      &-call {
-        .row {
-          .col-md-3 {
-            text-align: center;
-          }
+    &-case {
+      .carousel {
+        .container {
+          width: 80%;
         }
       }
+    }
 
-      &-case {
-        .carousel {
-          .container {
-            width: 80%;
-          }
-        }
-      }
-
-      &-clients {
-      }
+    &-clients {
     }
   }
 }
