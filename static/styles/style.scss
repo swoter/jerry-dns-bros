@@ -488,6 +488,7 @@ h6 {
       h1,
       p {
         color: #fff;
+        text-align: center;
       }
       .btn {
         display: inline-flex;
@@ -652,14 +653,14 @@ h6 {
   background-size: cover;
   color: #fff;
   a,
-  h3 {
+  h1 {
+    text-transform:capitalize;
     color: #fff;
     &:hover {
       color: $primary;
     }
   }
   h3 {
-    text-transform:capitalize;
     font-family: var(--font-family-sans-serif);
   }
   svg {
