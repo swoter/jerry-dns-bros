@@ -127,7 +127,7 @@ body {
       text-transform: uppercase;
       color: $primary;
       font-weight: 900;
-      font-family: Times New Rom;
+      font-family: var(--font-family-sans-serif);
 
       img {
         width: 150px;
@@ -659,7 +659,8 @@ h6 {
     }
   }
   h3 {
-    text-transform: uppercase;
+    text-transform:capitalize;
+    font-family: var(--font-family-sans-serif);
   }
   svg {
     fill: #fff;
